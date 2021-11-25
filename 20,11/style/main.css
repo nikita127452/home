@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.gh{
+    max-width: 8em;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: -45px;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.g{
+    display: flex;
+    justify-content: space-between;
+}
+.nazva{
+    border-color: darkgray;
+    text-align: center ;
+}

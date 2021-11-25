@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.s{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    margin: 50px;
+    font-size: x-large;
+}
+.words{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+ul{
+    margin-left: 150px;
+    display: flex;
+}
+li{
+    margin: 1vw;
+    display: flex;
+    list-style-type: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 2px;
+    background: transparent;
+    text-transform:  uppercase;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: white;
+    color: tomato;
+    font-weight: 700;
+}
+.main-inner{
+    width: 100%;
+    padding: 100px 0;
+}
+section{
+        color: white;
+        margin: 200px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.d{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+i{
+    font-size: 48px;
+    color: tomato;
+}
+p{
+    padding: 30px 0 0 0;
+}
+.eng{
+    border-radius: 1px;
+    border: none;
+    height: 1px;
+    background-color: black;
+    color: black;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+h2{
+  text-align: center;
+}
+p{
+    text-align: center;
+}
+.img{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+border: 2px solid black;
+text-align: center;
+line-height: 7em;
+
+}
+.free{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.img:hover{
+    background: brown; 
+}
+.fa-font, .fa-biohazard, .fa-code:hover{
+    color: white; 
+ }
+.text{
+    width: 250px ;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+h3{
+  text-align: center;  
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background: url(file:///E:/2/%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0/1/big_11496_oboi_krasnyj_fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-inner{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.play{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border:2px solid white ;
+    border-radius: 50%;
+    line-height: 7em;
+}
+.playt{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border:2px solid white ;
+    border-radius: 50%;
+    line-height: 7em;
+}
+.playr{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border:2px solid white ;
+    border-radius: 50%;
+    line-height: 7em;
+
+}
+.playu{
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border:2px solid white ;
+    border-radius: 50%;
+    line-height: 7em;
+}
+.footer-picture{
+    padding-left: auto;
+    padding: 100px;
+    align-content: center;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    position:absolute;
+}

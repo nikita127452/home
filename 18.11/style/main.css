@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 190px;
+    float: left;
+    border-radius: 5px; 
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+}
+.bloc2{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+}
+.bloc3{
+    width: 200px;
+    height: 500px; 
+    border: 1px solid black;
+}
+.block4{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+}
+input{
+  background-color: yellow;
+  width: 200px;
+  border-radius: 36%;
+}
+.cash{
+    background-color: yellow;
+    width: 60px;
+}
+.reviews{
+    max-width: 8em;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: -4em;
+}
+.aus{
+    background-color:darkorchid ;
+    width: 60px;
+    max-width: 8em;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: 1em;
+}
